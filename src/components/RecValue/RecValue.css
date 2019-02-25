@@ -1,0 +1,11 @@
+.rec {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.tables {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}

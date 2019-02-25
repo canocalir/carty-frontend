@@ -1,0 +1,25 @@
+<%= require('html-loader!./partials/header.html') %>
+<body class="default-demo">
+<div class="panels-wrap">
+  <div class="panel panel-first panel-only">
+    <div class="header-wrap">
+      <div class="img-wrap">
+        <img src="images/brush.svg" alt="">
+      </div>
+      <h2>Sticky Blur</h2>
+      <p>If you want the cleared sections to be not preserved, all you have to do is set <code class="dangling">keepCleared</code> to <code class="dangling">false</code>; or not set it since it defaults to false</p>
+    </div>
+
+    <pre><code>const brusher = new Brusher({
+  image: 'path/to/image.png',
+  keepCleared: false,
+});
+
+brusher.init();
+</code></pre>
+    <a class="btn btn-red btn-back" href=".">&larr; Back to Home</a>
+  </div>
+  <%= require('html-loader!./partials/examples.html') %>
+</div>
+</body>
+<%= require('html-loader!./partials/footer.html') %>

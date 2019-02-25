@@ -1,0 +1,27 @@
+@import "common";
+
+body {
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+
+  &.homepage {
+    background-image: url('images/homepage-blurred.jpg');
+  }
+
+  &.default-demo {
+    background-image: url('images/default-blurred.jpg');
+  }
+
+  &.keep-cleared {
+    background-image: url('images/keep-cleared-blurred.jpg');
+  }
+
+  &.line-style {
+    background-image: url('images/line-style-blurred.jpg');
+  }
+
+  &.background-less {
+    background: #5a5a5a;
+  }
+}
